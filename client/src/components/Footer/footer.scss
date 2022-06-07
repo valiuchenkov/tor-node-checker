@@ -1,0 +1,19 @@
+footer {
+  #github-repo-link {
+    margin-right: 8px;
+
+    img {
+      transition: .8s;
+      width: 32px;
+      opacity: .8;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  #copyright {
+    font-size: 18px;
+  }
+}

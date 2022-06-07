@@ -1,0 +1,14 @@
+#results #error-message {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 24px;
+    margin-right: 8px;
+  }
+
+  p {
+    font-size: 18px;
+    margin: 0;
+  }
+}

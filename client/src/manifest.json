@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+
+  "name": "TOR Node checker",
+  "description": "OSINT tool to check if IP related to TOR network.",
+  "version": "1.0",
+
+  "icons": {
+    "192": "icons/logo-192.png"
+  },
+
+  "action": {
+    "default_popup": "index.html"
+  },
+
+  "host_permissions": [
+    "https://*/*"
+  ]
+}
