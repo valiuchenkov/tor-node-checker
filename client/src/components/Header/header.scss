@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../../assets/fonts/Roboto-Bold.ttf);
+}
+
+
+header {
+  justify-content: space-between;
+
+  #logo {
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 8px;
+      width: 32px;
+    }
+
+    figcaption {
+      font-family: Roboto-Bold;
+      font-size: 24px;
+    }
+  }
+
+  #app-version {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    opacity: .8;
+  }
+}

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: NotoSans;
+  src: url(../assets/fonts/NotoSans-Regular.ttf);
+}
+
+
+body {
+  margin: 0;
+  width: 360px;
+}
+
+#app {
+  font-family: NotoSans;
+
+  header, main, footer {
+    padding: 0 16px;
+  }
+
+  header, footer {
+    height: 52px;
+    display: flex;
+    align-items: center;
+  }
+}
