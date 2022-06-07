@@ -1,0 +1,11 @@
+# Editor config
+.vscode/
+
+# Production build
+build/
+
+# Node modules
+node_modules/
+
+# Yarn error log
+.yarn-error.log
